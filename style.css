@@ -1,0 +1,69 @@
+
+.screen {
+    position: relative;
+    left: 10px;
+    top: 10px;
+    width: 400px;
+    height: 480px;
+    outline: 5px;
+    outline-style: double;
+    outline-color: black;  
+    background-color: lightgray;  
+}
+
+.row-1 {
+    position: relative;
+    left: 25px;
+    top: 15px;
+    width: 350px;
+    height: 70px;
+}
+
+.input-field {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 260px;
+    height: 60px;
+    border: 5px;
+    border-color:black;
+    border-style: groove;
+    text-align:end;    
+    overflow: hidden;
+    font-size: 55px;
+    color: rgb(204, 143, 68);
+    background-color: white;
+}
+
+.clear-button {
+    position: absolute;
+    left: 277.5px;
+    top: 5px;
+    width: 70px;
+    height: 70px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.number-buttons {
+    position: relative;
+    left: 25px;
+    top: 35px;
+    width: 350px;
+    height: 350px;
+    grid-column: auto;
+    
+}
+
+.number-row{
+    top:10px;
+    height: 87.5px;
+    width: 350px;
+}
+
+.number-button{    
+    width: 83.5px;
+    height: 87.5px;
+    font-size: 67.5px;
+    text-align: center;
+}
